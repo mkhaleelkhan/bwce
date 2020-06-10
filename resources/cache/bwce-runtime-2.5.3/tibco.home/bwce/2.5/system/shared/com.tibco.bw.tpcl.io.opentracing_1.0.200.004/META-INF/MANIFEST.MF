@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: com.tibco.bw.tpcl.io.opentracing;version="0.1.200",io.
+ opentracing;version="0.31.200",io.opentracing.contrib.jms.common;vers
+ ion="0.0.200",io.opentracing.contrib.tracerresolver;version="0.1.200"
+ ,io.opentracing.contrib.web.servlet.filter;version="0.31.200",io.open
+ tracing.log;version="0.31.200",io.opentracing.noop;version="0.31.200"
+ ,io.opentracing.propagation;version="0.31.200",io.opentracing.tag;ver
+ sion="0.31.200",io.opentracing.util;version="0.31.200"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/opentracing-api-0.31.0.jar,lib/opentracing-noo
+ p-0.31.0.jar,lib/opentracing-tracerresolver-0.1.4.jar,lib/opentracing
+ -util-0.31.0.jar,lib/opentracing-jms-common-0.0.6.jar,lib/opentracing
+ -web-servlet-filter-0.1.0.jar
+Bundle-Version: 1.0.200.004
+Bundle-Name: Opentracing TPCL for TIBCO BusinessWorks
+Bundle-Activator: com.tibco.bw.tpcl.io.opentracing.Activator
+Bundle-ManifestVersion: 2
+Import-Package: javax.servlet;version="[3.1.0,4.0.0)",javax.servlet.ht
+ tp;version="[3.1.0,4.0.0)",org.osgi.framework;version="[1.6.0,2.0.0)"
+ ,org.slf4j;version="[1.6.4,2.0.0)",org.osgi.util.tracker;version="[1.
+ 5.1,2.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.io.opentracing
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+

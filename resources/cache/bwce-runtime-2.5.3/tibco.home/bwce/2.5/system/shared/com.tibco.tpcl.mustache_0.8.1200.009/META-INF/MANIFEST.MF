@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: com.github.mustachejava;version="0.8.1200",com.github.
+ mustachejava.codes;version="0.8.1200",com.github.mustachejava.functio
+ ns;version="0.8.1200",com.github.mustachejava.jruby;version="0.8.1200
+ ",com.github.mustachejava.reflect;version="0.8.1200",com.github.musta
+ chejava.reflect.guards;version="0.8.1200",com.github.mustachejava.uti
+ l;version="0.8.1200",com.google.common.annotations;version="0.8.1200"
+ ,com.google.common.base;version="0.8.1200",com.google.common.base.int
+ ernal;version="0.8.1200",com.google.common.cache;version="0.8.1200",c
+ om.google.common.collect;version="0.8.1200",com.google.common.escape;
+ version="0.8.1200",com.google.common.eventbus;version="0.8.1200",com.
+ google.common.hash;version="0.8.1200",com.google.common.html;version=
+ "0.8.1200",com.google.common.io;version="0.8.1200",com.google.common.
+ math;version="0.8.1200",com.google.common.net;version="0.8.1200",com.
+ google.common.primitives;version="0.8.1200",com.google.common.reflect
+ ;version="0.8.1200",com.google.common.util.concurrent;version="0.8.12
+ 00",com.google.common.xml;version="0.8.1200",com.google.thirdparty.pu
+ blicsuffix;version="0.8.1200",com.twitter.mustache;version="0.8.1200"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: lib/compiler-0.8.16-SNAPSHOT-jar-with-dependencies.j
+ ar,.
+Bundle-Version: 0.8.1200.009
+Bundle-Name: Mustache TPCL
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.tibco.tpcl.mustache
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

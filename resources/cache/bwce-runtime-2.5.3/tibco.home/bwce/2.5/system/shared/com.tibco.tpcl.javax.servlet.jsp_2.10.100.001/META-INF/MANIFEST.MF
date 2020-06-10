@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Export-Package: javax.el;version="3.7.100",javax.servlet.jsp;version="
+ 2.10.100"; uses:="javax.servlet.http,  javax.servlet,  javax.servlet.
+ jsp.tagext,  javax.servlet.jsp.el,  javax.el",javax.servlet.jsp.el;ve
+ rsion="2.10.100";uses:="javax.el",javax.servlet.jsp.tagext;version="2
+ .10.100";uses:="javax.servlet.jsp"
+Bundle-Vendor: Sun Microsystems, Inc.
+Bundle-ClassPath: javax.servlet.jsp-api-2.3.1.jar,javax.el-api-3.0.0.j
+ ar
+Bundle-Version: 2.10.100.001
+Bundle-Name: JSP API
+Bundle-ManifestVersion: 2
+Import-Package: javax.el;version="[3.7.100,4.0.0)",javax.servlet;versi
+ on="[3.1.0,4.0.0)",javax.servlet.http;version="[3.1.0,4.0.0)",javax.s
+ ervlet.jsp;version="[2.10.100,3.0.0)",javax.servlet.jsp.el;version="[
+ 2.10.100,3.0.0)",javax.servlet.jsp.tagext;version="[2.10.100,3.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.servlet.jsp
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

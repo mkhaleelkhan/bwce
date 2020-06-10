@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: javax.annotation;version="1.2.0",javax.annotation.secu
+ rity;version="1.2.0",javax.annotation.sql;version="1.2"
+Bundle-Vendor: Sun Microsystems, Inc.
+Bundle-ClassPath: javax.annotation-api-1.2.jar
+Bundle-Version: 1.2.0.001
+Bundle-Name: JSR250 Common Annotations for the Java Platform
+Bundle-ManifestVersion: 2
+Import-Package: javax.annotation;version="[1.0.0,2.0.0)",javax.annotat
+ ion.security;version="[1.0.0,2.0.0)",javax.annotation.sql;version="[1
+ .0.0,2.0.0)"
+Bundle-SymbolicName: com.tibco.tpcl.javax.annotation
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><product id="bwce" name="TIBCO BusinessWorks" version="2.5.3" vendor="TIBCO Software Inc." milestone="" build="V26" type="vbuild" date="2020-05-15" rev="rvHEAD" track="branch-bw-6.6.1">
+<details>
+<eclipseBrandingPlugin>com.tibco.bw.branding.cloud.design</eclipseBrandingPlugin>
+<eclipseProductId>com.tibco.bw.branding.cloud.design.prod</eclipseProductId>
+</details>
+<ancillaryProduct>
+      <product id="EMPR" version="1.4.11" build="#175 (2016/08/30 @rv-64544)" name="TIBCO Mapper"/>
+      <product id="GXDM" version="1.5.0" build="V8 (2019/05/17)" name="TIBCO GenXDM"/>
+      <product id="TXML" version="5.60.1" build="#12 (2015/10/13)" name="TIBCO XML"/>
+      <product id="SCF" version="4.1.100" build=" V1(2016/10/19)" name="TIBCO Studio Core Framework [DTP 1.11.2] "/>
+      <product id="DSS" version="1.7.0" build="#78 (2016/03/16)" name="TIBCO Distributed Security Services"/>
+      <product id="PER" version="6.3.3" build="#90 (2016/06/20" name="TIBCO BW Policy Enforcement Runtime"/>
+      <product id="AS" version="2.1.6" build="V11.2-GA (2016/02/24)" name="TIBCO ActiveSpaces"/>
+      <product id="TEA" version="2.3.0" build="HF-005 (2018/12/13)" name="TIBCO TEA Agent"/>
+      <product id="WRAP" version="2.4.5" build="V1 (2014/12/11)" name="TIBCO Wrapper"/>
+      <product id="HK" version="5.1.0" build="" name="TIBCO Hawk AMI"/>
+      <product id="RV" version="8.4.2" build="V6.4-GA (2014/03/18)" name="TIBCO Rendezvous Client Library"/>
+      <product id="INST" version="3.6.5" build="V2 (2019/01/02)" name="TIBCO Universal Installer"/>
+      <product id="JAVA" version="1.8.0" build="192 (2018/10/19)" name="Oracle JRE"/>
+  </ancillaryProduct>
+</product>

@@ -1,0 +1,69 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.woden;version="1.1.100"; uses:="org.apache.
+ woden.wsdl20,  org.apache.woden.wsdl20.xml,  org.apache.woden.resolve
+ r,  org.apache.woden.wsdl20.extensions,  javax.xml.namespace",org.apa
+ che.woden.resolver;version="1.1.100",org.apache.woden.schema;version=
+ "1.1.100";uses:="org.apache.ws.commons.schema,org.apache.woden",org.a
+ pache.woden.types;version="1.1.100";uses:="javax.xml.namespace",org.a
+ pache.woden.wsdl20;version="1.1.100"; uses:="org.apache.woden.types, 
+  org.apache.woden.wsdl20.xml,  org.apache.woden.wsdl20.enumeration,  
+ org.apache.woden.wsdl20.extensions,  org.apache.woden.wsdl20.fragids,
+   javax.xml.namespace",org.apache.woden.wsdl20.enumeration;version="1
+ .1.100";uses:="org.apache.woden.types",org.apache.woden.wsdl20.extens
+ ions;version="1.1.100"; uses:="org.apache.woden.wsdl20,  org.apache.w
+ oden.wsdl20.xml,  org.apache.woden,  org.apache.woden.xml,  org.apach
+ e.woden.wsdl20.validation,  javax.xml.namespace",org.apache.woden.wsd
+ l20.extensions.http;version="1.1.100"; uses:="org.apache.woden.wsdl20
+ ,  org.apache.ws.commons.schema,  org.apache.woden.wsdl20.xml,  org.a
+ pache.woden.wsdl20.extensions,  javax.xml.namespace",org.apache.woden
+ .wsdl20.extensions.rpc;version="1.1.100";uses:="org.apache.woden.wsdl
+ 20.extensions,javax.xml.namespace",org.apache.woden.wsdl20.extensions
+ .soap;version="1.1.100"; uses:="org.apache.ws.commons.schema,  org.ap
+ ache.woden.wsdl20,  org.apache.woden.wsdl20.xml,  org.apache.woden.ws
+ dl20.extensions.http,  org.apache.woden.wsdl20.extensions,  javax.xml
+ .namespace",org.apache.woden.wsdl20.fragids;version="1.1.100"; uses:=
+ "org.apache.woden.wsdl20,  org.apache.woden.types,  org.apache.woden.
+ xpointer,  javax.xml.namespace",org.apache.woden.wsdl20.validation;ve
+ rsion="1.1.100";uses:="org.apache.woden.resolver,org.apache.woden",or
+ g.apache.woden.wsdl20.xml;version="1.1.100"; uses:="org.apache.woden.
+ wsdl20,  org.apache.ws.commons.schema,  org.apache.woden.types,  org.
+ apache.woden.wsdl20.enumeration,  org.apache.woden.wsdl20.extensions,
+   org.apache.woden,  org.apache.woden.schema,  javax.xml.namespace",o
+ rg.apache.woden.xml;version="1.1.100"; uses:="org.apache.woden.wsdl20
+ .extensions.rpc,  org.apache.woden.wsdl20.extensions.http,  org.apach
+ e.woden,  javax.xml.namespace",org.apache.woden.xpointer;version="1.1
+ .100";uses:="org.apache.woden.types"
+Bundle-Vendor: TIBCO Software Inc.
+Bundle-ClassPath: woden-core-1.0M10.jar
+Provide-Capability: osgi.contract;osgi.contract=org.apache.woden;versi
+ on:Version=1.0.0;uses:="javax.xml.namespace,org.apache.woden,org.apac
+ he.woden.resolver,org.apache.woden.schema,org.apache.woden.types,org.
+ apache.woden.wsdl20,org.apache.woden.wsdl20.enumeration,org.apache.wo
+ den.wsdl20.extensions,org.apache.woden.wsdl20.extensions.http,org.apa
+ che.woden.wsdl20.extensions.rpc,org.apache.woden.wsdl20.extensions.so
+ ap,org.apache.woden.wsdl20.fragids,org.apache.woden.wsdl20.validation
+ ,org.apache.woden.wsdl20.xml,org.apache.woden.xml,org.apache.woden.xp
+ ointer,org.apache.ws.commons.schema"
+Bundle-Version: 1.1.100.002
+Bundle-Name: Axis2 Woden
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: WOden packaged for Axis2 core.
+Import-Package: javax.xml.namespace;version="[1.1.0,2.0.0)",org.apache
+ .woden;version="[1.1.100,2.0.0)",org.apache.woden.resolver;version="[
+ 1.1.100,2.0.0)",org.apache.woden.schema;version="[1.1.100,2.0.0)",org
+ .apache.woden.types;version="[1.1.100,2.0.0)",org.apache.woden.wsdl20
+ ;version="[1.1.100,2.0.0)",org.apache.woden.wsdl20.enumeration;versio
+ n="[1.1.100,2.0.0)",org.apache.woden.wsdl20.extensions;version="[1.1.
+ 100,2.0.0)",org.apache.woden.wsdl20.extensions.http;version="[1.1.100
+ ,2.0.0)",org.apache.woden.wsdl20.extensions.rpc;version="[1.1.100,2.0
+ .0)",org.apache.woden.wsdl20.extensions.soap;version="[1.1.100,2.0.0)
+ ",org.apache.woden.wsdl20.fragids;version="[1.1.100,2.0.0)",org.apach
+ e.woden.wsdl20.validation;version="[1.1.100,2.0.0)",org.apache.woden.
+ wsdl20.xml;version="[1.1.100,2.0.0)",org.apache.woden.xml;version="[1
+ .1.100,2.0.0)",org.apache.woden.xpointer;version="[1.1.100,2.0.0)",or
+ g.apache.ws.commons.schema;version="[2.0.100,3.0.0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.org.apache.woden
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

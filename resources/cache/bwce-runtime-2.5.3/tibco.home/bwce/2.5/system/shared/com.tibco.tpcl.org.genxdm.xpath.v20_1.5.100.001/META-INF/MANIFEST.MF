@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bundle-Description: The GenXDM XPath 2.0 API module.
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.xpath.v20
+Export-Package: org.genxdm.xpath.v20;version="1.5";uses:="org.genxdm.t
+ yped,org.genxdm.typed.variant,org.genxdm.xpath.v20.err,org.genxdm.xpa
+ th.v20.expressions,org.genxdm.xpath.v20.keys,org.genxdm.xs.types",org
+ .genxdm.xpath.v20.common;version="1.5";uses:="org.genxdm.typed.types,
+ org.genxdm.xs.types",org.genxdm.xpath.v20.err;version="1.5";uses:="ja
+ vax.xml.namespace,org.genxdm.xpath.v20",org.genxdm.xpath.v20.expressi
+ ons;version="1.5";uses:="javax.xml.namespace,org.genxdm,org.genxdm.io
+ ,org.genxdm.names,org.genxdm.typed,org.genxdm.typed.io,org.genxdm.typ
+ ed.types,org.genxdm.typed.variant,org.genxdm.xpath.v20.common,org.gen
+ xdm.xpath.v20.err,org.genxdm.xpath.v20.functions,org.genxdm.xpath.v20
+ .keys,org.genxdm.xpath.v20.namespace,org.genxdm.xpath.v20.operators,o
+ rg.genxdm.xpath.v20.policy,org.genxdm.xs.types",org.genxdm.xpath.v20.
+ functions;version="1.5";uses:="javax.xml.namespace,org.genxdm,org.gen
+ xdm.exceptions,org.genxdm.typed,org.genxdm.typed.types,org.genxdm.xpa
+ th.v20.common,org.genxdm.xpath.v20.err,org.genxdm.xpath.v20.expressio
+ ns,org.genxdm.xs,org.genxdm.xs.types",org.genxdm.xpath.v20.jxtypes;ve
+ rsion="1.5";uses:="javax.xml.datatype,javax.xml.namespace,org.genxdm.
+ exceptions,org.genxdm.names,org.genxdm.typed.types,org.genxdm.xs.type
+ s",org.genxdm.xpath.v20.keys;version="1.5";uses:="javax.xml.namespace
+ ,org.genxdm.typed,org.genxdm.xpath.v20.common,org.genxdm.xpath.v20.er
+ r,org.genxdm.xpath.v20.expressions,org.genxdm.xpath.v20.match,org.gen
+ xdm.xpath.v20.policy",org.genxdm.xpath.v20.match;version="1.5";uses:=
+ "org.genxdm.typed,org.genxdm.typed.variant,org.genxdm.xpath.v20.err,o
+ rg.genxdm.xpath.v20.expressions",org.genxdm.xpath.v20.model;version="
+ 1.5";uses:="javax.xml.namespace,org.genxdm,org.genxdm.names,org.genxd
+ m.typed,org.genxdm.typed.types,org.genxdm.typed.variant,org.genxdm.xp
+ ath.v20.common,org.genxdm.xpath.v20.err,org.genxdm.xpath.v20.expressi
+ ons,org.genxdm.xpath.v20.functions,org.genxdm.xpath.v20.jxtypes,org.g
+ enxdm.xpath.v20.match,org.genxdm.xpath.v20.operators,org.genxdm.xpath
+ .v20.policy,org.genxdm.xs,org.genxdm.xs.types",org.genxdm.xpath.v20.n
+ amespace;version="1.5";uses:="org.genxdm.names",org.genxdm.xpath.v20.
+ operators;version="1.5";uses:="javax.xml.namespace,org.genxdm.typed.t
+ ypes,org.genxdm.xpath.v20.common,org.genxdm.xpath.v20.err,org.genxdm.
+ xpath.v20.expressions,org.genxdm.xpath.v20.functions,org.genxdm.xs,or
+ g.genxdm.xs.types",org.genxdm.xpath.v20.policy;version="1.5"
+Bundle-Name: GenXDM XPath 2.0 API
+Bundle-Version: 1.5.100.001
+Bundle-ClassPath: org.genxdm.xpath.v20_1.5.1.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: TIBCO Software Inc.
+Import-Package: javax.xml.datatype;version="[1.3,2)",javax.xml.namespa
+ ce;version="[1.1,2)",org.genxdm;version="[1.5,2)",org.genxdm.bridgeki
+ t.misc;version="[1.5,2)",org.genxdm.exceptions;version="[1.5,2)",org.
+ genxdm.io;version="[1.5,2)",org.genxdm.names;version="[1.5,2)",org.ge
+ nxdm.typed;version="[1.5,2)",org.genxdm.typed.io;version="[1.5,2)",or
+ g.genxdm.typed.types;version="[1.5,2)",org.genxdm.typed.variant;versi
+ on="[1.5,2)",org.genxdm.xpath.v20;version="[1.5,2)",org.genxdm.xpath.
+ v20.common;version="[1.5,2)",org.genxdm.xpath.v20.err;version="[1.5,2
+ )",org.genxdm.xpath.v20.expressions;version="[1.5,2)",org.genxdm.xpat
+ h.v20.functions;version="[1.5,2)",org.genxdm.xpath.v20.jxtypes;versio
+ n="[1.5,2)",org.genxdm.xpath.v20.keys;version="[1.5,2)",org.genxdm.xp
+ ath.v20.match;version="[1.5,2)",org.genxdm.xpath.v20.namespace;versio
+ n="[1.5,2)",org.genxdm.xpath.v20.operators;version="[1.5,2)",org.genx
+ dm.xpath.v20.policy;version="[1.5,2)",org.genxdm.xs;version="[1.5,2)"
+ ,org.genxdm.xs.enums;version="[1.5,2)",org.genxdm.xs.types;version="[
+ 1.5,2)"
+
+

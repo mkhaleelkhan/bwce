@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.osgi.service.http.context;version="1.0";uses:="jav
+ ax.servlet.http,org.osgi.framework",org.osgi.service.http.runtime;ver
+ sion="1.0";uses:="org.osgi.service.http.runtime.dto",org.osgi.service
+ .http.runtime.dto;version="1.0";uses:="org.osgi.dto,org.osgi.framewor
+ k.dto",org.osgi.service.http.whiteboard;version="1.0"
+Bundle-Vendor: TIBCO
+Bundle-ClassPath: lib/org.osgi.service.http.whiteboard-1.0.0.jar,.
+Bundle-Version: 1.0.0.001
+Bundle-Name: Whiteboard
+Bundle-ManifestVersion: 2
+Import-Package: javax.servlet.http;version="[3.1.0,4)",org.osgi.dto;ve
+ rsion="[1.0,2)",org.osgi.framework;version="[1.8,2)",org.osgi.framewo
+ rk.dto;version="[1.8,2)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.osgi.services.whiteboard
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+

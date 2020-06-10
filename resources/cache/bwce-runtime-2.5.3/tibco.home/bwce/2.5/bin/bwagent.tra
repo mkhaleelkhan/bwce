@@ -1,0 +1,51 @@
+# Copyright (c) 2013 TIBCO Software Inc.
+# All Rights Reserved.
+#
+# DO NOT MODIFY!
+#
+# This software is the confidential and proprietary information of TIBCO Software Inc.
+#
+
+# NOTE:
+# There must be only one java.extended.properties in the .tra file. Append remote
+# debugging extended properties here to use remote debugging for this process.
+#
+java.extended.properties=-Xmx1024m -Xms256m -XX:+HeapDumpOnOutOfMemoryError -XX:SurvivorRatio=128 -XX:MaxTenuringThreshold=0  -XX:+UseTLAB -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled
+
+# For internal use only
+processID.file.name=%tra.file.dir%/.pid
+application.start.dir=%tra.file.dir%
+
+
+# Uncomment the following variable to support remote debugging.  
+# You may change specific attributes if necessary (e.g. the port of 5005).
+#java.extended.properties=-Xmx1024m -Xms256m -XX:SurvivorRatio=128 -XX:MaxTenuringThreshold=0  -XX:+UseTLAB -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005
+#java.property.debug=true
+
+#import thor.tra
+tibco.include.tra=%tra.file.dir%/bwcommon.tra
+
+# Uncomment this to enable security for the REST API of bwagent
+# JAAS based authentication
+#java.property.java.security.auth.login.config=%BW_HOME%/config/jaas.login.conf
+
+# AS lib path
+tibco.env.AS_LIB_PATH=%BW_HOME%/system/hotfix/lib/as/lib%PSP%%BW_HOME%/system/lib/as/lib
+
+
+tibco.env.PATH=%FTL_LIB_PATH%%PSP%%AS_LIB_PATH%%PSP%%PATH%
+tibco.env.LD_LIBRARY_PATH=%FTL_LIB_PATH%%PSP%%AS_LIB_PATH%%PSP%%LD_LIBRARY_PATH%
+tibco.env.DYLD_LIBRARY_PATH=%FTL_LIB_PATH%%PSP%%AS_LIB_PATH%%PSP%%DYLD_LIBRARY_PATH%
+tibco.env.SHLIB_PATH=%FTL_LIB_PATH%%PSP%%AS_LIB_PATH%%PSP%%SHLIB_PATH%
+tibco.env.LIBPATH=%FTL_LIB_PATH%%PSP%%AS_LIB_PATH%%PSP%%LIBPATH%
+
+# BW product specific class path for Equinox
+
+bw.class.path=%BW_HOME%/system/hotfix/lib/common%PSP%%BW_HOME%/system/lib/common%PSP%%BW_HOME%/system/hotfix/lib/as/lib%PSP%%BW_HOME%/system/lib/as/lib%PSP%%BW_HOME%/system/hotfix/lib%PSP%%BW_HOME%/system/hotfix/lib/tea%PSP%%BW_HOME%/system/lib%PSP%%BW_HOME%/system/lib/tea%PSP%%BW_HOME%/system/hotfix/shared%PSP%%BW_HOME%/system/shared%PSP%%BW_HOME%/system/hotfix/palettes%PSP%%BW_HOME%/system/palettes
+
+tibco.class.path.extended=%bw.class.path%%PSP%%BW_HOME%/system/shared/**
+tibco.class.path.extended.search.level=3
+
+java.start.class=com.tibco.bw.thor.admin.agent.Main
+java.start.method=main
+

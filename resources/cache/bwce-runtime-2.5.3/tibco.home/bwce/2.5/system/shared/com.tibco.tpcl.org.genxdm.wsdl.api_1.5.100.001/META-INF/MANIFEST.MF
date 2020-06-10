@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-Description: The GenXDM WSDL API module.
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.wsdl.api
+Export-Package: org.genxdm.wsdl;version="1.5";uses:="javax.xml.namespa
+ ce,org.genxdm.io,org.genxdm.names,org.genxdm.wsdl.components,org.genx
+ dm.wsdl.exceptions,org.genxdm.wsdl.extension,org.genxdm.xs",org.genxd
+ m.wsdl.components;version="1.5";uses:="javax.xml.namespace,org.genxdm
+ .wsdl,org.genxdm.wsdl.extension,org.genxdm.wsdl.patterns",org.genxdm.
+ wsdl.exceptions;version="1.5";uses:="javax.xml.namespace",org.genxdm.
+ wsdl.extension;version="1.5";uses:="javax.xml.namespace,org.genxdm.io
+ ,org.genxdm.wsdl",org.genxdm.wsdl.io;version="1.5";uses:="org.genxdm.
+ io,org.genxdm.wsdl,org.genxdm.wsdl.exceptions,org.genxdm.wsdl.extensi
+ on,org.genxdm.wsdl.patterns,org.genxdm.xs,org.genxdm.xs.exceptions,or
+ g.genxdm.xs.resolve",org.genxdm.wsdl.patterns;version="1.5",org.genxd
+ m.wsdl.v11;version="1.5";uses:="javax.xml.namespace,org.genxdm.wsdl,o
+ rg.genxdm.wsdl.components,org.genxdm.wsdl.extension",org.genxdm.wsdl.
+ v11.http;version="1.5";uses:="org.genxdm.wsdl.extension",org.genxdm.w
+ sdl.v11.mime;version="1.5";uses:="org.genxdm.wsdl,org.genxdm.wsdl.ext
+ ension",org.genxdm.wsdl.v11.soap;version="1.5";uses:="javax.xml.names
+ pace,org.genxdm.wsdl.extension",org.genxdm.wsdl.v20;version="1.5";use
+ s:="javax.xml.namespace,org.genxdm.wsdl,org.genxdm.wsdl.components"
+Bundle-Name: GenXDM WSDL API
+Bundle-Version: 1.5.100.001
+Bundle-ClassPath: org.genxdm.wsdl.api_1.5.1.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: TIBCO Software Inc.
+Import-Package: javax.xml.namespace;version="[1.1,2)",org.genxdm.excep
+ tions;version="[1.5,2)",org.genxdm.io;version="[1.5,2)",org.genxdm.na
+ mes;version="[1.5,2)",org.genxdm.wsdl;version="[1.5,2)",org.genxdm.ws
+ dl.components;version="[1.5,2)",org.genxdm.wsdl.exceptions;version="[
+ 1.5,2)",org.genxdm.wsdl.extension;version="[1.5,2)",org.genxdm.wsdl.p
+ atterns;version="[1.5,2)",org.genxdm.xs;version="[1.5,2)",org.genxdm.
+ xs.exceptions;version="[1.5,2)",org.genxdm.xs.resolve;version="[1.5,2
+ )"
+
+

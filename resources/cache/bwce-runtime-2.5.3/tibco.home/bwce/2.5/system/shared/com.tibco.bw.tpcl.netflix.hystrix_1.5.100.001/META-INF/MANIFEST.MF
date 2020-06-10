@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Export-Package: com.netflix.config;version="1.5.100",com.netflix.hystr
+ ix;version="1.5.100"; uses:="com.netflix.hystrix.strategy.eventnotifi
+ er,  new com.netflix.hystrix,  org.slf4j,  com.netflix.hystrix.except
+ ion,  com.netflix.hystrix.strategy.executionhook,  com.netflix.hystri
+ x.collapser,  rx.subscriptions,  rx.functions,  com.netflix.hystrix.s
+ trategy.concurrency,  com.netflix.hystrix.util,  com.netflix.hystrix.
+ metric,  rx,  com.netflix.hystrix.strategy.properties",com.netflix.hy
+ strix.collapser;version="1.5.100"; uses:="com.netflix.hystrix.strateg
+ y.concurrency,  rx.functions,  com.netflix.hystrix.util,  org.slf4j, 
+  com.netflix.hystrix,  rx",com.netflix.hystrix.config;version="1.5.10
+ 0";uses:="rx.functions,rx,com.netflix.hystrix",com.netflix.hystrix.co
+ ntrib.metrics.eventstream;version="1.5.100",com.netflix.hystrix.excep
+ tion;version="1.5.100",com.netflix.hystrix.metric;version="1.5.100"; 
+ uses:="rx.functions,  com.netflix.hystrix.strategy.concurrency,  org.
+ HdrHistogram,  rx,  com.netflix.hystrix",com.netflix.hystrix.metric.c
+ onsumer;version="1.5.100"; uses:="rx.functions,  com.netflix.hystrix.
+ metric,  org.HdrHistogram,  com.netflix.hystrix,  rx",com.netflix.hys
+ trix.strategy;version="1.5.100"; uses:="com.netflix.hystrix.strategy.
+ concurrency,  com.netflix.hystrix.strategy.metrics,  com.netflix.hyst
+ rix.strategy.eventnotifier,  org.slf4j,  com.netflix.hystrix.strategy
+ .properties,  com.netflix.hystrix.strategy.executionhook",com.netflix
+ .hystrix.strategy.concurrency;version="1.5.100"; uses:="rx.functions,
+   new com.netflix.hystrix.strategy.concurrency,  org.slf4j,  rx,  com
+ .netflix.hystrix.strategy.properties,  com.netflix.hystrix",com.netfl
+ ix.hystrix.strategy.eventnotifier;version="1.5.100";uses:="com.netfli
+ x.hystrix",com.netflix.hystrix.strategy.executionhook;version="1.5.10
+ 0";uses:="com.netflix.hystrix,com.netflix.hystrix.exception",com.netf
+ lix.hystrix.strategy.metrics;version="1.5.100";uses:="com.netflix.hys
+ trix",com.netflix.hystrix.strategy.properties;version="1.5.100"; uses
+ :="com.netflix.config,  new com.netflix.hystrix.strategy.properties, 
+  com.netflix.hystrix,  org.slf4j",com.netflix.hystrix.strategy.proper
+ ties.archaius;version="1.5.100";uses:="com.netflix.hystrix.strategy.p
+ roperties",com.netflix.hystrix.util;version="1.5.100"; uses:="sun.mis
+ c,  org.slf4j,  com.netflix.hystrix,  com.netflix.hystrix.strategy.pr
+ operties",org.apache.commons.configuration;version="1.5.100",rx;versi
+ on="1.1.100"
+Bundle-ClassPath: rxjava-1.1.1.jar,HdrHistogram-2.1.7.jar,archaius-cor
+ e-0.4.1.jar,commons-configuration-1.8.jar,commons-lang-2.6.jar,common
+ s-logging-1.1.1.jar,hystrix-core-1.5.3.jar,hystrix-metrics-event-stre
+ am-1.5.3.jar
+Bundle-Version: 1.5.100.001
+Bundle-Name: BW TPCL for Netflix Hystrix
+Bundle-ManifestVersion: 2
+Import-Package: com.fasterxml.jackson.core;version="[2.6.1,3.0.0)",jav
+ ax.servlet.http;version="[3.1.0,4.0.0)",org.slf4j;version="[1.7.0,2.0
+ .0)"
+Bundle-SymbolicName: com.tibco.bw.tpcl.netflix.hystrix
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
+

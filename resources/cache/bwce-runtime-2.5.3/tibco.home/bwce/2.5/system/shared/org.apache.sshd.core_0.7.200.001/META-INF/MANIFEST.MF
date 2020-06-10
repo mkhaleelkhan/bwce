@@ -1,0 +1,101 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.sshd.agent;version="0.7.200",org.apache.ssh
+ d.agent.common;version="0.7.200",org.apache.sshd.agent.local;version=
+ "0.7.200",org.apache.sshd.agent.unix;version="0.7.200",org.apache.ssh
+ d.client;version="0.7.200",org.apache.sshd.client.auth;version="0.7.2
+ 00",org.apache.sshd.client.auth.hostbased;version="0.7.200",org.apach
+ e.sshd.client.auth.keyboard;version="0.7.200",org.apache.sshd.client.
+ auth.password;version="0.7.200",org.apache.sshd.client.auth.pubkey;ve
+ rsion="0.7.200",org.apache.sshd.client.channel;version="0.7.200",org.
+ apache.sshd.client.channel.exit;version="0.7.200",org.apache.sshd.cli
+ ent.config;version="0.7.200",org.apache.sshd.client.config.hosts;vers
+ ion="0.7.200",org.apache.sshd.client.config.keys;version="0.7.200",or
+ g.apache.sshd.client.future;version="0.7.200",org.apache.sshd.client.
+ global;version="0.7.200",org.apache.sshd.client.kex;version="0.7.200"
+ ,org.apache.sshd.client.keyverifier;version="0.7.200",org.apache.sshd
+ .client.session;version="0.7.200",org.apache.sshd.client.session.forw
+ ard;version="0.7.200",org.apache.sshd.client.simple;version="0.7.200"
+ ,org.apache.sshd.client.subsystem;version="0.7.200",org.apache.sshd.c
+ ommon;version="0.7.200",org.apache.sshd.common.auth;version="0.7.200"
+ ,org.apache.sshd.common.channel;version="0.7.200",org.apache.sshd.com
+ mon.channel.exception;version="0.7.200",org.apache.sshd.common.channe
+ l.throttle;version="0.7.200",org.apache.sshd.common.cipher;version="0
+ .7.200",org.apache.sshd.common.compression;version="0.7.200",org.apac
+ he.sshd.common.config;version="0.7.200",org.apache.sshd.common.config
+ .keys;version="0.7.200",org.apache.sshd.common.config.keys.impl;versi
+ on="0.7.200",org.apache.sshd.common.config.keys.loader;version="0.7.2
+ 00",org.apache.sshd.common.config.keys.loader.openssh;version="0.7.20
+ 0",org.apache.sshd.common.config.keys.loader.pem;version="0.7.200",or
+ g.apache.sshd.common.digest;version="0.7.200",org.apache.sshd.common.
+ file;version="0.7.200",org.apache.sshd.common.file.nativefs;version="
+ 0.7.200",org.apache.sshd.common.file.root;version="0.7.200",org.apach
+ e.sshd.common.file.util;version="0.7.200",org.apache.sshd.common.file
+ .virtualfs;version="0.7.200",org.apache.sshd.common.forward;version="
+ 0.7.200",org.apache.sshd.common.future;version="0.7.200",org.apache.s
+ shd.common.global;version="0.7.200",org.apache.sshd.common.helpers;ve
+ rsion="0.7.200",org.apache.sshd.common.io;version="0.7.200",org.apach
+ e.sshd.common.io.nio2;version="0.7.200",org.apache.sshd.common.kex;ve
+ rsion="0.7.200",org.apache.sshd.common.kex.dh;version="0.7.200",org.a
+ pache.sshd.common.keyprovider;version="0.7.200",org.apache.sshd.commo
+ n.mac;version="0.7.200",org.apache.sshd.common.random;version="0.7.20
+ 0",org.apache.sshd.common.session;version="0.7.200",org.apache.sshd.c
+ ommon.session.helpers;version="0.7.200",org.apache.sshd.common.signat
+ ure;version="0.7.200",org.apache.sshd.common.util;version="0.7.200",o
+ rg.apache.sshd.common.util.buffer;version="0.7.200",org.apache.sshd.c
+ ommon.util.buffer.keys;version="0.7.200",org.apache.sshd.common.util.
+ closeable;version="0.7.200",org.apache.sshd.common.util.io;version="0
+ .7.200",org.apache.sshd.common.util.io.der;version="0.7.200",org.apac
+ he.sshd.common.util.io.functors;version="0.7.200",org.apache.sshd.com
+ mon.util.logging;version="0.7.200",org.apache.sshd.common.util.net;ve
+ rsion="0.7.200",org.apache.sshd.common.util.security;version="0.7.200
+ ",org.apache.sshd.common.util.security.bouncycastle;version="0.7.200"
+ ,org.apache.sshd.common.util.security.eddsa;version="0.7.200",org.apa
+ che.sshd.common.util.threads;version="0.7.200",org.apache.sshd.server
+ ;version="0.7.200",org.apache.sshd.server.auth;version="0.7.200",org.
+ apache.sshd.server.auth.gss;version="0.7.200",org.apache.sshd.server.
+ auth.hostbased;version="0.7.200",org.apache.sshd.server.auth.keyboard
+ ;version="0.7.200",org.apache.sshd.server.auth.password;version="0.7.
+ 200",org.apache.sshd.server.auth.pubkey;version="0.7.200",org.apache.
+ sshd.server.channel;version="0.7.200",org.apache.sshd.server.command;
+ version="0.7.200",org.apache.sshd.server.config;version="0.7.200",org
+ .apache.sshd.server.config.keys;version="0.7.200",org.apache.sshd.ser
+ ver.forward;version="0.7.200",org.apache.sshd.server.global;version="
+ 0.7.200",org.apache.sshd.server.jaas;version="0.7.200",org.apache.ssh
+ d.server.kex;version="0.7.200",org.apache.sshd.server.keyprovider;ver
+ sion="0.7.200",org.apache.sshd.server.session;version="0.7.200",org.a
+ pache.sshd.server.shell;version="0.7.200",org.apache.sshd.server.subs
+ ystem;version="0.7.200",org.apache.sshd.server.x11;version="0.7.200"
+Bundle-ClassPath: org.apache.sshd.core_2.0.0.v20181102-1323.jar
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/too
+ ls:org.eclipse.orbit/org.apache.sshd.core;tag=v201303101611
+Bundle-Vendor: %providerName
+Bundle-Version: 0.7.200.001
+Bundle-ManifestVersion: 2
+Bundle-Description: The Apache Software Foundation provides support fo
+ r the Apache community of open-source software projects. The Apache p
+ rojects are characterized by a collaborative, consensus based develop
+ ment process, an open and    pragmatic software license, and a desire
+  to create high quality software that leads the way in its field.    
+ We consider ourselves not simply a group of projects sharing a server
+ , but rather a community of developers and users.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-DocURL: http://www.apache.org/
+Bundle-SymbolicName: org.apache.sshd.core
+Import-Package: com.jcraft.jzlib;resolution:=optional,javax.crypto,jav
+ ax.crypto.interfaces,javax.crypto.spec,javax.security.auth,javax.secu
+ rity.auth.callback,javax.security.auth.login,org.apache.mina.core.buf
+ fer;version="[2.0.0,3.0.0)",org.apache.mina.core.filterchain;version=
+ "[2.0.0,3.0.0)",org.apache.mina.core.future;version="[2.0.0,3.0.0)",o
+ rg.apache.mina.core.service;version="[2.0.0,3.0.0)",org.apache.mina.c
+ ore.session;version="[2.0.0,3.0.0)",org.apache.mina.filter.executor;v
+ ersion="[2.0.0,3.0.0)",org.apache.mina.transport.socket;version="[2.0
+ .0,3.0.0)",org.apache.mina.transport.socket.nio;version="[2.0.0,3.0.0
+ )",org.apache.mina.util;version="[2.0.0,3.0.0)",org.apache.tomcat.jni
+ ;resolution:=optional,org.bouncycastle.crypto.prng;resolution:=option
+ al,org.bouncycastle.jce.provider;resolution:=optional,org.bouncycastl
+ e.openssl;resolution:=optional,org.ietf.jgss,org.slf4j;version="[1.6.
+ 0,2.0.0)"
+
+

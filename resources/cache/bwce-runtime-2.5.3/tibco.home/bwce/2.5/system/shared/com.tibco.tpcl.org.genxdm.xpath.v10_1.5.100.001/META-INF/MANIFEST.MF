@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-Description: The GenXDM XPath 1.0 API module is based on an abs
+ traction of the XPath processing developed by James Clark and Bill Li
+ ndsey for XT (with their permission; see copying.txt and copyingjc.tx
+ t for their licenses).
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.xpath.v10
+Export-Package: org.genxdm.xpath.v10;version="1.5";uses:="javax.xml.na
+ mespace,org.genxdm,org.genxdm.names,org.genxdm.nodes",org.genxdm.xpat
+ h.v10.extend;version="1.5";uses:="org.genxdm.xpath.v10"
+Bundle-Name: GenXDM XPath 1.0 API
+Bundle-Version: 1.5.100.001
+Bundle-ClassPath: org.genxdm.xpath.v10_1.5.1.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: javax.xml.namespace;version="[1.1,2)",org.genxdm;versi
+ on="[1.5,2)",org.genxdm.names;version="[1.5,2)",org.genxdm.nodes;vers
+ ion="[1.5,2)",org.genxdm.xpath.v10;version="[1.5,2)"
+
+

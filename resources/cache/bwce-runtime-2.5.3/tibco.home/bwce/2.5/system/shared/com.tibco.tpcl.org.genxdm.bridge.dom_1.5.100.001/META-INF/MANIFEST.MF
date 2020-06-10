@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-Description: GenXDM enables applications to write code that use
+ s and manipulates XML trees without being tied to a particular XML tr
+ ee representation like DOM, DOM4J, AXIOM, or any other. It also prods
+  developers towards an immutable view of XML trees, which will make i
+ t easier and faster to work with XML across multiple cores and multip
+ le processors.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: com.tibco.tpcl.org.genxdm.bridge.dom
+Export-Package: org.genxdm.bridge.dom;version="1.5";uses:="javax.xml.n
+ amespace,javax.xml.parsers,javax.xml.stream,org.genxdm,org.genxdm.bri
+ dgekit.atoms,org.genxdm.bridgekit.axes,org.genxdm.exceptions,org.genx
+ dm.io,org.genxdm.mutable,org.genxdm.names,org.genxdm.nodes,org.genxdm
+ .processor.io,org.genxdm.typed,org.genxdm.typed.types,org.genxdm.xs,o
+ rg.w3c.dom,org.xml.sax",org.genxdm.bridge.dom.enhanced;version="1.5";
+ uses:="javax.xml.namespace,javax.xml.stream,org.genxdm,org.genxdm.bri
+ dge.dom,org.genxdm.bridgekit.atoms,org.genxdm.io,org.genxdm.processor
+ .io,org.genxdm.typed,org.genxdm.typed.io,org.genxdm.typed.types,org.g
+ enxdm.xs,org.w3c.dom"
+Bundle-Name: GenXDM Document Object Model Bridge
+Bundle-Version: 1.5.100.001
+Bundle-ClassPath: org.genxdm.bridge.dom_1.5.1.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: TIBCO Software Inc.
+Import-Package: javax.xml;version="[1.0,2)",javax.xml.namespace;versio
+ n="[1.1,2)",javax.xml.parsers;version="[1.3,2)",javax.xml.stream;vers
+ ion="[1.0,2)",org.genxdm;version="[1.5,2)",org.genxdm.bridge.dom;vers
+ ion="[1.5,2)",org.genxdm.bridge.dom.enhanced;version="[1.5,2)",org.ge
+ nxdm.bridgekit.atoms;version="[1.5,2)",org.genxdm.bridgekit.axes;vers
+ ion="[1.5,2)",org.genxdm.bridgekit.filters;version="[1.5,2)",org.genx
+ dm.bridgekit.misc;version="[1.5,2)",org.genxdm.bridgekit.names;versio
+ n="[1.5,2)",org.genxdm.bridgekit.tree;version="[1.5,2)",org.genxdm.br
+ idgekit.validation;version="[1.5,2)",org.genxdm.bridgekit.xs;version=
+ "[1.5,2)",org.genxdm.exceptions;version="[1.5,2)",org.genxdm.io;versi
+ on="[1.5,2)",org.genxdm.mutable;version="[1.5,2)",org.genxdm.names;ve
+ rsion="[1.5,2)",org.genxdm.nodes;version="[1.5,2)",org.genxdm.process
+ or.io;version="[1.5,2)",org.genxdm.typed;version="[1.5,2)",org.genxdm
+ .typed.io;version="[1.5,2)",org.genxdm.typed.types;version="[1.5,2)",
+ org.genxdm.xs;version="[1.5,2)",org.genxdm.xs.exceptions;version="[1.
+ 5,2)",org.genxdm.xs.types;version="[1.5,2)",org.w3c.dom;version="[3.0
+ ,4)",org.xml.sax;version="[2.0.2,3)"
+
+
